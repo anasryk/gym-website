@@ -24,7 +24,7 @@
         ::-webkit-scrollbar-thumb {
             background: var(--primary-red);
         }
-
+        
         /* Typography */
         h1,
         h2,
@@ -160,7 +160,7 @@
             white-space: nowrap;
             margin: 0 auto;
             letter-spacing: 0.15em;
-            animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+            animation: typing 3.4s steps(20, end), blink-caret s step-end infinite;
             display: inline-block;
             font-weight: 600;
             color: #fff;
@@ -533,7 +533,11 @@
             border: none;
             color: #fff;
             border-radius: 0.5rem;
-            padding: 1.2rem 1rem;
+            padding: 1.5rem 1rem;
+        }
+
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.6);
         }
 
         .form-control:focus {
@@ -599,6 +603,10 @@
             margin-bottom: 1.2rem;
             position: relative;
             padding-bottom: 8px;
+        }
+
+        .newsletter-form input {
+            padding: 10px;
         }
 
         .footer-links h4:after {

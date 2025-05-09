@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="64" height="64" rx="8" fill="#000000"/>
+  
+  <!-- Letter A stylized -->
+  <polygon points="32,8 48,56 40,56 36,44 28,44 24,56 16,56" fill="#ffffff"/>
+  
+  <!-- Red accent bar -->
+  <rect x="24" y="36" width="16" height="4" fill="#ff0000"/>
+  
+  <!-- Small "F" for FITNESS -->
+  <rect x="32" y="44" width="14" height="4" fill="#ff0000"/>
+  <rect x="32" y="44" width="4" height="12" fill="#ff0000"/>
+  <rect x="32" y="50" width="10" height="2" fill="#ff0000"/>
+</svg>
